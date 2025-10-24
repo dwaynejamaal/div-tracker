@@ -1,0 +1,15 @@
+{
+  "name": "div-tracker",
+  "version": "1.0.0",
+  "description": "Modern dividend tracker",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "start": "npm run build && npx live-server --port=8080 --open=./index.html"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "live-server": "^1.2.1"
+  }
+}
